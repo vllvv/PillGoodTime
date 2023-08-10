@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "630868398634",
+    "project_id": "heroic-command-242708",
+    "storage_bucket": "heroic-command-242708.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630868398634:android:d26dfe6af6686d16dfe953",
+        "android_client_info": {
+          "package_name": "com.cookandroid.swu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630868398634-dr2hl14uje6883ieav9q5a69ae06q833.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cookandroid.swu",
+            "certificate_hash": "663bfabfad9e3df7190ed3aad4df70a7ba783997"
+          }
+        },
+        {
+          "client_id": "630868398634-kbbcii1t5fgngjru4t937u81pnl1641c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiwCvZCv_7V1xxwMHjshI3TbLhH31ZnsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630868398634-kbbcii1t5fgngjru4t937u81pnl1641c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

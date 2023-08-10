@@ -1,0 +1,93 @@
+Index: app/src/main/res/layout/fragment_home.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_home.xml	(revision 21e784ba9b8341b99daad543c86facdaf1177976)
++++ app/src/main/res/layout/fragment_home.xml	(date 1649689188443)
+@@ -6,53 +6,30 @@
+     android:orientation="vertical"
+     tools:context=".Fragment.HomeFragment">
+ 
+-    <TableLayout
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="30dp">
+-        <TableRow
+-            android:background="#"
+-            android:layout_gravity="center_vertical"
+-            android:layout_margin="15dp">
+-            <CalendarView
+-                android:layout_width="0dp"
+-                android:layout_height="wrap_content"
+-                android:layout_weight="1"
+-                android:layout_gravity="center"
+-                android:id="@+id/calenarView"/>
+-        </TableRow>
+-        <TableRow
+-            android:layout_margin="20dp">
+-            <TextView
+-                android:layout_marginLeft="30dp"
+-                android:layout_width="0dp"
+-                android:layout_height="wrap_content"
+-                android:layout_weight="1"
+-                android:text="알약 이름"
+-                android:textSize="20dp"/>
+-            <ImageView
+-                android:layout_width="0dp"
+-                android:layout_weight="1"
+-                android:layout_height="30dp"
+-                />
+-        </TableRow>
+-        <TableRow
+-            android:layout_margin="20dp">
+-            <TextView
+-                android:layout_marginLeft="30dp"
+-                android:layout_width="0dp"
+-                android:layout_height="wrap_content"
+-                android:layout_weight="1"
+-                android:text="약 이름 버리세요!"
+-                android:textSize="20dp"/>
+-            <ImageView
+-                android:layout_width="0dp"
+-                android:layout_height="30dp"
+-                android:layout_weight="1"
+-                android:src="@drawable/bin"/>
+-        </TableRow>
+-
+-    </TableLayout>
++    <CalendarView
++        android:id="@+id/calendarView"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="30dp"
++        android:layout_marginLeft="30dp"
++        android:layout_marginRight="30dp"/>
++
++    <TextView
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="10dp"
++        android:layout_marginLeft="60dp"
++        android:textSize="15dp"
++        android:text="알약 이름"/>
++
++    <TextView
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="20dp"
++        android:layout_marginLeft="60dp"
++        android:textSize="15dp"
++        android:text="약 이름 버리세요.">
++    </TextView>
+ 
+ 
+ </LinearLayout>
+\ No newline at end of file
+diff --git app/src/main/res/drawable/bin.png app/src/main/res/drawable/bin.png
+deleted file mode 100644
+index 56f01ac18f5756ad5afffb33d52c5ea610a4a2ff..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+

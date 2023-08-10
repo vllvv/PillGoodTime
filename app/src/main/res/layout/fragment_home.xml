@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".Fragment.HomeFragment">
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarView"
+        android:background="@drawable/background"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:mcv_showOtherDates="defaults"
+        app:mcv_selectionColor="#b5d692"/>
+
+    <LinearLayout
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp">
+
+        <TextView
+            android:id="@+id/PName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="약이름"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/drugTime"
+            android:layout_width="59dp"
+            android:layout_height="27dp"
+            android:layout_weight="1"
+            android:src="@drawable/pill" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp">
+
+        <TextView
+            android:id="@+id/EName"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="약이름"
+            android:textSize="20dp" />
+
+
+        <ImageView
+            android:id="@+id/imgBin"
+            android:layout_width="29dp"
+            android:layout_height="27dp"
+            android:layout_weight="1"
+            android:src="@drawable/bin" />
+    </LinearLayout>
+</LinearLayout>
