@@ -1,5 +1,5 @@
 # PillGoodTime
-![약굿타임.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/823c19cd-9e4b-436f-b859-0fa704274101/%EC%95%BD%EA%B5%BF%ED%83%80%EC%9E%84.jpg)
+![프레젠테이션12](https://github.com/vllvv/PillGoodTime/assets/80588214/0a299a18-6088-4c84-8b41-a46684cae2cf)
 - Android 
 - Java
   
